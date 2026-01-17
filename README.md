@@ -7,5 +7,5 @@ Tested on Windows 11 (Build 26100).
 # Building
 
 ```
-cd capcom && cargo make && cargo xtask vmware
+cd capcom/src/capcom && cargo make
 ```
