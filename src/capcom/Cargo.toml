@@ -1,0 +1,30 @@
+[package]
+name = "capcom"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+readme.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+utf16_lit = "2.0.2"
+wdk-sys = "0.5.1"
+wdk = "0.4.1"
+
+[build-dependencies]
+wdk-build = "0.5.1"
+
+[lib]
+crate-type = ["cdylib"]
+test = false
+
+[package.metadata.wdk.driver-model]
+driver-type = "WDM"
