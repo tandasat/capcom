@@ -5,8 +5,4 @@ pub(crate) const USER_NAME: &str = "user";
 pub(crate) const PASSWORD: &str = "123";
 pub(crate) const MODULE_NAME: &str = "capcom";
 
-#[allow(dead_code)]
 const VMX_PATH_W11: &str = r"C:\OST2\Win11\Win11.vmx";
-
-#[allow(dead_code)]
-const VMX_PATH_W10: &str = r"C:\OST2\Win10\Win10.vmx";

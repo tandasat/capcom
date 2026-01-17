@@ -1,4 +1,4 @@
-#![doc = include_str!("../../README.md")]
+#![doc = include_str!("../../../README.md")]
 #![no_std]
 
 use core::{arch::asm, ptr};
